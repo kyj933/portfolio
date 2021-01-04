@@ -346,25 +346,28 @@ a span:after {
 .contents .drink { height: 900px;}
 .contents .drink .d_bg { 
 	background: url('../img/drink_bg.png') no-repeat 0 0; 
-	height: 700px; margin: 0 auto; position: relative;
+	height: 100vh; margin: 0 auto; position: relative;
 	top:80px; left: 0; right: 0;
 }
-.contents .drink .drink_main .dm_img { position: absolute; width: 1280px;}
+.contents .drink .drink_main .dm_img { 
+	position: absolute; width: 1280px;
+}
+
 .contents .drink .drink_main .dm_img.ty1 { 
-	margin-top: -60px;
-	padding-left: 787px;
+	margin-top: -6.5vh;
+    padding-left: 39vw;
 }
 .contents .drink .drink_main .dm_img.ty2 { 
-	margin-top: 320px;
-	padding-left: 410px
+    margin-top: 34vh;
+    padding-left: 22vw;
 }
 .contents .drink .drink_main .dm_img.ty3 { 
-	margin-top: 560px;
-	padding-left: 1055px;
+    margin-top: 58.5vh;
+    padding-left: 56vw;
 }
 .contents .drink .drink_main .dm_txt {  
-	padding-left: 445px;
-    padding-top: 120px;
+	padding-left: 24vw;
+    padding-top: 13vh;
 }
 .contents .drink .drink_main .dm_txt > li > h3 + p { padding-top: 20px;}
 .contents .drink .drink_main .dm_txt > li > h3 { 
@@ -486,7 +489,7 @@ a span:after {
   --swiper-theme-color: #1535a4;
 }
 
-.swiper-slide > img { width: 73%; height: 82%;}
+.swiper-slide > img { }
 
 .news .swiper-container {
       width: 100%;
