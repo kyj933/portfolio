@@ -505,25 +505,25 @@ header {
 }
 .container .item.t1 .mtxt.t2{
 	font-size: 50px;
-	line-height: 1;
-	letter-spacing: -1px;
+	line-height: 1.1;
+	letter-spacing: -2px;
 	font-weight: 600;
     padding: 24.5vh 0 0 6.4vw;
 }
 .container .item.t2 .mtxt.t1 { 
 	font-weight: 600;
 	font-size: 60px;
-	line-height: 1;
-	letter-spacing: -1px;
-	padding: 21vh 0 0 27.5vw;
+	line-height: 1.1;
+	letter-spacing: -4px;
+    padding: 21vh 0 0 28.5vw;
 }
 
 .container .item.t3 .mtxt.t1{
     font-weight: 600;
-    color: #f1f0ec;
+    color: #fff;
     font-size: 50px;
-    line-height: 1;
-    letter-spacing: -1px;
+    line-height: 1.1;
+    letter-spacing: -3px;
     padding: 8vh 0 0 26vw;	
 }
 
@@ -536,6 +536,7 @@ header {
 .container .item.t4 .mtxt.t2 { 
 	font-weight: 600;
 	color:#fff;
+	letter-spacing: -2px;
 	font-size: 35px; 
 	padding: 14vh 0 0 2vw;
 }

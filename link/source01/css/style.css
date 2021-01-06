@@ -284,12 +284,13 @@ transform:translate(70px, 5px) scale(.9)
   	position: absolute;
   	top: 7vh;
   	left: 50%;
-	width: 1.7vw;
+	width: 30px;
     height: 50px;;
   	margin-left: -15px;
   	border: 2px solid #333;
   	border-radius: 50px;
   	box-sizing: border-box;
+	box-shadow: 0 0 1px 0 #666 inset, 0 0 1px 0 #666;
 }
 .icon > a span:before {
   	position: absolute;
@@ -388,11 +389,11 @@ a span:after {
 .contents .s_drink .sd_dg .drink_rt { float: right; width:50%;}
 
 .contents .s_drink .sd_dg .drink_lt .drink_logo {
-	margin-top: 210px; padding-left: 250px; text-align: center;
+	margin-top: 210px; padding-left: 0; text-align: center;
 }
 
 .contents .s_drink .sd_dg .drink_rt .drink_sub { 
-	width: 682px; height: 700px;
+	height: 700px;
 }
 .contents .s_drink .sd_dg .drink_rt .drink_sub > li { 
 	width:682px; height: 345px; position: relative;
