@@ -1,5 +1,33 @@
 
 $(function() { 
+	
+var currentScene = 0;
+var yOffset = $(window).scrollTop();
+console.log(yOffset);	
+var totalScrollHeight = 0;
+for(var i = 0; i < $(".page").length; i++) { 
+	totalScrollHeight += $(".page").eq(i).height();
+	
+	if(totalScrollHeight > yOffset) { 
+	   currentScene = i;			   	
+	   break;							   
+	}		
+	
+	
+}	
+	
+console.log(currentScene);	
+	
+
+if(currentScene == 3) { 
+	$("nav ul > li").eq(currentScene - 1).addClass("active");
+} else { 
+	$("nav ul > li").eq(currentScene).addClass("active");
+}
+
+	
+	
+	
 var nav = $('nav');
 var line = $('<div />').addClass('line');
 
