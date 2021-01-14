@@ -40,46 +40,6 @@ header {
 .vo_box.lt .vodka_set > li:nth-child(4) {transform: scale(.7)}
 .vo_box.lt .vodka_set > li:nth-child(5) {transform: scale(.6)}
 
-/*
-.vo_box.lt .vodka_set > li:nth-child(1) {left:0; transform: scale(1); z-index: 5}
-.vo_box.lt .vodka_set > li:nth-child(2) {left:80px; transform: scale(.9); z-index: 4}
-.vo_box.lt .vodka_set > li:nth-child(3) {left:160px; transform: scale(.8); z-index: 3} 
-.vo_box.lt .vodka_set > li:nth-child(4) {left:240px; transform: scale(.7); z-index: 2}
-.vo_box.lt .vodka_set > li:nth-child(5) {left:300px; transform: scale(.6); z-index: 1}
-*/
-
-/*
-돌때마다 각 li의 left값이 80px만큼 감소 한다, sclae은 0.1씩 증가한다 z-index는 1씩 증가한다
-left가 80만큼 감소하닥 0이되면 다음 돌때는 다시 300px가 된다 
-스케일이 증가하다가 1이 되면 다음 돌때는 다시 .6이 된다
-
-
-
-최초 돌때
-1번 : left:0 scale(1) - class : on
-2번 : left:80 scale(.9)
-3번 : left:160px scale(.8)
-4번 : left:240px scale(.7)
-5번 : left:300px scale(.6)
-
-첫번째 돌때 : 1번위 맨 뒤로 가야함
-1번 : left:300px scale(.6)
-2번 : left:0 scale(1) - class : on
-3번 : left:80px scale(.9)
-4번 : left:160px scale(.8)
-5번 : left:240px scale(.7)
-
-두번째 돌때
-1번 : left:240px scale(.7)
-2번 : left:300 scale(1)
-3번 : left:0px scale(.9) - class : on
-4번 : left:80px scale(.8)
-5번 : left:160px scale(.7)
-
-*/
-
-
-
 .vo_box.lt .vodka_set > li .simg {
 	width: 300px; height: 800px;
 	background: url('../img/vodkaset.png') no-repeat 0 0;
@@ -173,16 +133,6 @@ left가 80만큼 감소하닥 0이되면 다음 돌때는 다시 300px가 된다
 
 
 
-/* ********  bg  *************/
-
-
-/* bg ty1을 제외한 나머지 bg 타입 전부 선택 */
-/*
-.vo_box.lt .vodka_set > li span[class^="bg ty"]:not(.ty1) {
-visibility: hidden; opacity: 0;
-}
-*/
-
 .vo_box.lt .vodka_set > li .simg.ty1 { 
 	background-position: 0 0; 
 }
@@ -203,30 +153,7 @@ visibility: hidden; opacity: 0;
 	background-position: -1200px 0;
 	
 }
-/*
-.vo_box.lt .vodka_set > li:nth-child(1) {z-index: 5; background:#f00}
-.vo_box.lt .vodka_set > li:nth-child(2) {z-index: 4; background:orange}
-.vo_box.lt .vodka_set > li:nth-child(3) {z-index: 3; background:yellow}
-.vo_box.lt .vodka_set > li:nth-child(4) {z-index: 2; background:green}
-.vo_box.lt .vodka_set > li:nth-child(5) {z-index: 1; background:blue}
-*/
 
-/*
-.vo_box.lt .vodka_set > li:nth-child(5) {
-	transform:translate(200px, 5px) scale(.6)
-}
-
-.vo_box.lt .vodka_set > li:nth-child(4) {
-	transform:translate(160px, 5px) scale(.7)
-}
-.vo_box.lt .vodka_set > li:nth-child(3) {
-	transform:translate(120px, 5px) scale(.8)
-}
-
-.vo_box.lt .vodka_set > li:nth-child(2) {
-transform:translate(70px, 5px) scale(.9)
-}
-*/
 
 .vo_box.rt { 
 	display: block;
@@ -234,33 +161,7 @@ transform:translate(70px, 5px) scale(.9)
 .vo_box.rt > img { 
 	padding: 25vh 0 0 2vw;
 }
-/*
-.vo_box.rt .stxt { 
-	height:360px; position:relative; 
-	top: 175px; left: 0; right: 0; bottom: 0; z-index: 1;
-}
 
-
-.vo_box.rt .stxt > li { 
-	width:100%;
-	height:100%;
-	position:absolute; display: block;
-}
-
-.vo_box.rt .stxt > li .title { 
-	width: 670px; height: 360px; padding-top: 388px;
-	background: url('../img/vodka_title03.png') no-repeat 0 0;
-	position:absolute; display:block; 
-	background-size:auto 360px; margin:0 auto; 
-}
-
-.vo_box.rt .stxt > li .title.ty1 { background-position: 0 0;}
-.vo_box.rt .stxt > li .title.ty2 { background-position: -670px 0;}
-.vo_box.rt .stxt > li .title.ty3 { background-position: -1340px 0;}
-.vo_box.rt .stxt > li .title.ty4 { background-position: -2010px 0}
-.vo_box.rt .stxt > li .title.ty5 { background-position: -2680px 0;}
-
-.vo_box.rt .stxt > li ~ li .title { visibility:hidden;}*/
 
 /*********  타이틀 바꾸기 *********/
 
