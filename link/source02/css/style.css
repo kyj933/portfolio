@@ -785,7 +785,7 @@ header {
 }
 .page.p4 .p4_in .prdbox.ty2 .grid .objset .obj.ty2 { }
 .page.p4 .p4_in .prdbox.ty2 .grid .objset .obj.ty2 > img { 
-	transform: translate(15vw, -3vh);
+	transform: translate(1vw, 23vh);
     height: 38vh;
 }
 
