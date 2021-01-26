@@ -66,8 +66,8 @@
 						},
 						values : { 
 							
-							objs1_1_opacity_in: [0, 1, {start: 0.3, end: 0.39}],
-							objs1_1_translate_in: [-80,0, {start: 0.3, end: 0.39}],
+							objs1_1_opacity_in: [0, 1, {start: 0.31, end: 0.39}],
+							objs1_1_translate_in: [-150,0, {start: 0.31, end: 0.39}],
 						
 							objs1_2_opacity_in: [0, 1, { start: 0.37, end: 0.45}],
 							objs1_2_translate_in: [150,0, {start: 0.37, end: 0.45}],
@@ -82,8 +82,8 @@
 							objs3_1_opacity_in: [0, 1, {start: 0.64, end: 0.73}],
 							objs3_1_translate_in: [-150,0, {start: 0.64, end: 0.73}],
 						
-							objs3_2_opacity_in: [0, 1, { start: 0.76, end: 0.80}],
-							objs3_2_translate_in: [150,0, {start: 0.76, end: 0.80}],
+							objs3_2_opacity_in: [0, 1, { start: 0.75, end: 0.80}],
+							objs3_2_translate_in: [150,0, {start: 0.75, end: 0.80}],
 							
 							/*
 							objs2_1_opacity_in: [0, 1, { start: scene03Point[2][0], end: scene03Point[2][1]}],
