@@ -734,7 +734,7 @@ header {
 /**********  gif 끝******/
 
 /**********  제품 시작 ******/
-.page.p4 { }
+.page.p4 {     padding-top: 15vh;}
 .page.p4 .p4_in { }
 .page.p4 .p4_in .prdbox {display:flex; margin:50px 350px;}
 .page.p4 .p4_in .prdbox .grid {
@@ -780,7 +780,7 @@ header {
 .page.p4 .p4_in .prdbox.ty2 .grid .objset .obj { display: inline-block;}
 .page.p4 .p4_in .prdbox.ty2 .grid .objset .obj.ty1 { }
 .page.p4 .p4_in .prdbox.ty2 .grid .objset .obj.ty1 > img { 
-    transform: translate(2vw, -2vh);
+    transform: translate(0vw, -16vh);
     height: 53vh;
 }
 .page.p4 .p4_in .prdbox.ty2 .grid .objset .obj.ty2 { }

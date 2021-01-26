@@ -79,8 +79,8 @@
 							objs2_2_opacity_in: [0, 1, { start: 0.56, end: 0.62}],
 							objs2_2_translate_in: [150,0, {start: 0.56, end: 0.62}],
 							
-							objs3_1_opacity_in: [0, 1, {start: 0.63, end: 0.73}],
-							objs3_1_translate_in: [-150,0, {start: 0.63, end: 0.73}],
+							objs3_1_opacity_in: [0, 1, {start: 0.64, end: 0.73}],
+							objs3_1_translate_in: [-150,0, {start: 0.64, end: 0.73}],
 						
 							objs3_2_opacity_in: [0, 1, { start: 0.76, end: 0.80}],
 							objs3_2_translate_in: [150,0, {start: 0.76, end: 0.80}],
