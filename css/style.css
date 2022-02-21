@@ -499,6 +499,12 @@ nav ul li a {
 .button.primary {
   color: #fff;
 }
+
+.button.primary.op1 {
+  color: #fff;
+  margin-right: 30px;
+	margin-top: 33px;
+}
 .btn_set .info { 
 	padding-right: 30px
 }
